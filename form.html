@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .get_in_touch {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #FFFFFF;
+            border: 1px solid #F1F1F1;
+            border-radius: 5px;
+            opacity: 1;
+            margin-top: 200px;
+        }
+        .get_in_touch .title {
+            margin-bottom: 15px;
+            text-align: left;
+            letter-spacing: 0.4px;
+            color: #2D3142;
+            opacity: 1;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        .contact_form .form-field {
+            position: relative;
+            margin: 20px 0;
+        }
+        .contact_form .input-text {
+            width: 100%;
+            height: 36px;
+            border-width: 0 0 2px 0;
+            font-size: 18px;
+            line-height: 20px;
+            background: transparent;
+            transition: border-color 0.3s ease;
+        }
+        .contact_form .input-text:focus {
+            outline: none;
+            border-color: #FF3366;
+        }
+        .contact_form .input-text:focus + .label,
+        .contact_form .input-text:not(:placeholder-shown) + .label {
+            transform: translateY(-24px);
+            font-size: 14px;
+            color:#6F718F99;
+        }
+        .contact_form .label {
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 400;
+            transition: all 0.3s ease;
+            pointer-events: none;
+        }
+        .second {
+            display: flex;
+            gap: 20px;
+        }
+        .contact_form .input-text:not(:placeholder-shown) + .label .required-symbol {
+            display: none; 
+        }
+        .form-check {
+            margin-top: -3px;
+            padding-left: 20px;
+            text-align: left;
+            letter-spacing: 0px;
+        }
+        .form-check-input {
+            margin-left: 0;
+        }
+        .type {
+            width: 100%;
+            height: 52px;
+            background: #FF3366;
+            opacity: 1;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .type:hover {
+            background: #FF1C55;
+        }
+        .center {
+            text-align: center;
+            color: #FFFFFF;
+            opacity: 1;
+            white-space: nowrap;
+            padding-top: 15px;
+        }
+        input[type="checkbox"]:checked {
+            background-color: #FF3366 !important;
+        }
+        .work{
+            margin-left: 13px;
+        }
+        .first{
+            margin-left: 2px;
+
+        }
+        .label1{
+            margin-left: -14px;
+        }
+        .label2{
+            margin-left: -14px;
+        }
+
+input[type="checkbox"]:checked {
+    background-color: #FF3366;
+    border-color: #FF3366;
+}
+
+input[type="checkbox"]:checked::after {
+    background-color: #e91313;
+}
+
+    </style>
+</head>
+<body>
+    <section class="get_in_touch">
+        <p class="title">Talk to us</p>
+        <form action="https://getform.io/f/bzylwvva" method="POST">
+            <div class="contact_form">
+                <div class="form-field col-12">
+                    <input id="mail" type="email" name="email" class="input-text" placeholder=" ">
+                    <label for="mail" class="label work" >Work Email<span class="required-symbol">*</span></label>
+                </div>
+                <div class="second col-12">
+                    <div class="form-field col-6">
+                        <input id="first" type="text" name="first_name" class="input-text label1" placeholder=" ">
+                        <label for="first" class="label  first">First name<span class="required-symbol">*</span></label>
+                    </div>
+                    <div class="form-field col-6">
+                        <input id="second" type="text" name="last_name" class="input-text label2" placeholder=" ">
+                        <label for="second" class="label">Last name<span class="required-symbol">*</span></label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-check1 col-12">
+                    <input type="hidden" name="agree_checkbox" value="no">
+                    <input class="form-check-input" type="checkbox" value="yes" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        <p class="form-check">I agree to Fyle's terms and conditions, and provide consent to send me communication.</p>
+                    </label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="button col-12">
+                    <button type="submit" class="type text-light">Contact Us</button>
+                </div>
+            </div>
+        </form>
+    </section>
+  
+</body>
+</html>
