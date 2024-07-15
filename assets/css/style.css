@@ -1,0 +1,553 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 100vw;
+    height: 4821px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Allow vertical scrollbar */
+   
+}
+.container  {
+    display: flex;
+    position: relative; /* Add this to create a stacking context */
+    height: 937px;
+  }
+ 
+ 
+
+
+.red {
+    padding-top: 243px;
+    padding-left: 376;
+    font-size: 30px;
+    width: 251px;
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    color: #FF3147;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.digital {
+    padding-top: 39;
+    font-size: 60px;
+    padding-left: 375;
+    width: 614px;
+    height: 140px;
+    text-align: left;
+    font: normal normal bold 60px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+
+
+.photo {
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 375px;
+    width: 487px;
+    height: 737px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.morbi{
+    padding-top: 50px;
+    padding-left: 375;
+    text-align: left;
+    font-size: 24px;
+    width: 584px;
+    height: 83px;
+    padding-right: 20px; /* Add right padding for space */
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    overflow-wrap: break-word;
+}
+.button {
+    position: absolute;
+    top: 645px;
+    margin-left: -1030px;
+    width: 160px;
+    height: 50px;
+    margin-top: 30px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+
+
+.button-content {
+    top: 660px;
+    left: 405px;
+    width: 103px;
+    height: 20px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.container1{
+    margin-top: 20px;
+    padding-left: -4px;
+    width: 1920px;
+    height: 1030px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.what{
+    padding-top: 100px;
+    margin-left: 113px;
+    width: 156px;
+    height: 24px;
+    text-align: left;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+    white-space: nowrap;
+}
+.services{
+    padding-top: 40px;
+    margin-left: 113px;
+    width: 442px;
+    height: 110px;
+    text-align: left;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+.morbi1{
+    margin-left: 730px;
+    margin-top: -50px;
+    width: 584px;
+    height: 83px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    white-space: nowrap;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 11px;
+    margin-top: 20px;
+}
+
+  .photo  {
+    width: 370px;
+    height: 526px;
+    margin-right: -51px;
+    margin-bottom: 20px;
+    
+  }
+ 
+  
+.block{
+    display: none;
+    position: absolute;
+    width: 370px;
+    height: 526px;
+    background: #d51e31 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 0.86;
+    margin-left:0px;
+    pointer-events: none;
+}
+.html{
+    padding-top: 116px;
+    margin-left: 156px;
+    width: 57px;
+    height: 57px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.web{
+    padding-top: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 242;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.morbi2{
+    padding-top: 21px;
+    margin-left: 25px;
+    width: 320px;
+    height: 54px;
+    text-align: center;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 68.92px;
+}
+.read {
+    padding-top: 0px;
+    margin-left: -20px;
+    width: 91px;
+    height: 20px;
+    text-align: left;
+    font: normal normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FF3147;
+    opacity: 1;
+    margin-bottom: 15px;
+    white-space: nowrap;
+}
+.arrow {
+    margin-bottom: 10px;
+    margin-left: 20px; /* Adjust as needed */
+    width: 37px;
+    height: 10px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: 70px;
+    width: 185px;
+    height: 50px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+.load{
+    display: flex;
+    margin-left: 113px;
+    margin-top: 100px;
+  }
+  .load1  {
+   
+    margin-right: 10px; /* Adjust as needed */
+    margin-bottom: 20px; /* Adjust as needed */  
+  }
+.why{
+    padding-top: 130px;
+    margin-left: 580px;
+    width: 206px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+}
+.best{
+    padding-top: 40px;
+    margin-left: 500px;
+    width: 428px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+.symbols {
+    display: flex;
+}
+.lorem{
+        display: flex;
+
+}
+.details{
+    display: flex;
+}
+.ima{
+    padding-top: 100px;
+    margin-left: 108px;
+    width: 72px;
+    height: 72px;
+    background: transparent  0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-right: 150px;
+}
+
+.detail{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 243px;
+    height: 28px;
+    font-size: 20px;
+    text-align: left;
+    font:  Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+    margin-right:-10px ;
+}
+
+.cont{
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 256px;
+    height: 75px;
+    font-size: 17px;
+    text-align: left;
+    font:  Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-right: -23px;
+}
+.container4 {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.container5 {
+    display: flex;
+    
+    margin-left: 20px; /* Adjust as necessary */
+}
+.react{
+    flex-direction: column;
+    padding-top: 100px;
+}
+.project img{
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 770px;
+    height: 669px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    object-fit: cover;
+    margin-bottom: 120px;
+}
+.rect:hover {
+    background-color:#FF3147;
+    cursor: pointer;
+  }
+.rect{
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 370px;
+    height: 189px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.gender{
+    padding-top: 34px;
+    margin-left: 50px;
+    width: 293px;
+    height: 28px;
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-weight: bold;
+}
+.launch{
+    padding-top: 15px;
+    margin-left: 50px;
+    width: 293px;
+    height: 79px;
+    font-size: 16px;
+    text-align: left;
+    font: normal normal normal 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.experts{
+    padding-top: 0px;
+    margin-left: 100px;
+    width: 226px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+.container6{
+    padding-top: 100px;
+    padding-left: 480px;
+    width: 1920px;
+    height: 602px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.company{
+    padding-top: 40px;
+    margin-left: -45px;
+    width: 556px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+.container7{
+    display: flex;
+    padding-top: 100px;
+}
+.box{
+    margin-left: -358px;
+    width: 270px;
+    height: 233px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 6px 20px #672C2C1F;
+    opacity: 1;
+    margin-right: 390px;
+
+}
+.box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+.symb{
+    padding-top: 34px;
+    margin-left: 115px;
+    background: transparent url 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.rating{
+    padding-top: 10px;
+    margin-left: 61px;
+    width: 148px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: -12px;
+}
+.customer{
+    
+    margin-left: 31px;
+    width: 208px;
+    height: 28px;
+    text-align: center;
+    font: normal normal 300 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.client{
+    padding-top: 100px;
+    margin-left: 580px;
+    width: 242px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+}
+.people{
+    padding-top: 40px;
+    margin-left: 400px;
+    width: 598px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.jannat{
+    padding-top: 20px;
+    margin-left: 376px;
+    width: 831px;
+    height: 62px;
+    text-align: left;
+    font-size: 20px;
+    font:  Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.quote{
+    padding-top: 100px;
+    margin-left: 354px;
+    width: 64px;
+    height: 45px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.thumpa{
+    padding-top: 30px;
+    margin-left: 376px;
+}
+.jan{
+   
+    width: 159px;
+    height: 28px;
+    text-align: left;
+    font: normal normal bold 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #FF3147;
+    opacity: 1;
+}
+.coo{
+
+    width: 338px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 300 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #808080;
+    opacity: 1;
+}
+
+  
+  .Group {
+    position: absolute;
+    margin-top: 175px; 
+    margin-left: -1800px; 
+    width: 1170px;
+    height: 56px;
+  }
+.image-container{
+    position: relative;
+    display: inline-block;
+    padding-top: 100px;
+    width: 1920px;
+    height: 310px;
+    background: transparent #FF3147  0% 0% no-repeat padding-box;
+    opacity: 0.81;
+}
